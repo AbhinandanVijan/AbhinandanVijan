@@ -113,15 +113,6 @@ _Endpoint Management & Tooling_
 
 ---
 
-## 📊 GitHub Stats (optional)
-<!-- Replace <your-username> below -->
-<p align="left">
-  <img height="165" alt="stats" src="https://github-readme-stats.vercel.app/api?username=<AbhinandanVijan>&show_icons=true&include_all_commits=true"/>
-  <img height="165" alt="langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=<AbhinandanVijan>&layout=compact"/>
-</p>
-
----
-
 ## 🗂️ Repo Index (to pin on profile)
 - 🔒 **SmartHub** — Enterprise backup/restore (.NET) — _private/work sample write‑up_  
 - 🧩 **rt-extension-ai** — OSS add‑on for Request Tracker (Perl + OpenAI)  
