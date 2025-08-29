@@ -86,15 +86,38 @@
 
 ---
 
-## 💼 Experience
-**HSBC Software Development India — Senior Software Engineer**  
-_Endpoint Management & Tooling_  
-- Built **.NET** desktop/web tooling for a user base of **400k+**; improved reliability and runtime performance  
-- Optimized **database schemas** for live apps; adopted flexible designs for future scalability  
-- Collaborated with global stakeholders; shipped features in agile increments with robust telemetry (**Serilog**)
+## Experience
 
-**University at Buffalo — M.S. Projects**  
-- **ViT + Transformer captioning** (PixeLens), **open‑source RT AI extension**, and course projects spanning **OS, Algorithms, DB**
+### University at Buffalo — Software Developer (Client: Best Practical Solutions LLC)
+**Buffalo, NY · Aug 2024 – Dec 2024**  
+**Project:** Request Tracker (RT) AI Extension  
+- Built AI-powered plugins for RT using OpenAI APIs and prompt chaining to improve ticket triage and agent productivity.  
+- Shipped **summarization**, **sentiment analysis**, and **smart reply suggestions** integrated with **Perl** back end and **CKEditor** UI.  
+- Collaborated on production-quality integration, testing, and rollout across an open-source stack.  
+**Tech:** Perl, JavaScript, CKEditor, OpenAI API
+
+---
+
+### HSBC Software Development India — Senior Software Engineer
+**Pune, India · Apr 2023 – Dec 2023**  
+- Led development of a **.NET Windows** application automating **backup/restore** for **400k+** users, reducing manual work by **90%**.  
+- Designed a **modular plug-and-play DLL** architecture to speed releases and maximize reuse across product lines.  
+- Hardened and tuned services & **REST APIs**, cutting average response time by **40%** and improving resiliency.  
+- Performed **SQL Server** tuning (indexes, stored procedures), reducing key query times by **70%**.  
+- Implemented **Splunk**-based observability and alerting, improving incident **TTR by 50%**.  
+- Agile delivery (standups, reviews) and CI/CD contributions; earned a **“Pat on the Back”** award (Oct 2023).  
+**Tech:** C#, .NET, Windows Services, REST, SQL Server, Splunk, CI/CD
+
+---
+
+### HSBC Software Development India — Software Engineer
+**Pune, India · Sept 2020 – Mar 2023**  
+- Maintained and enhanced multiple **.NET web/desktop** apps (OOP, MVC) used by **20+** internal business units.  
+- Built and owned **50+ SSIS** pipelines; delivered **500+ SSRS** KPI dashboards and reports.  
+- Automated recurring ETL tasks, saving **120+ hours/month** across teams.  
+- Integrated apps with **LDAP/Active Directory** and scripted automation with **PowerShell**.  
+**Tech:** ASP.NET, WPF, SSIS, SSRS, PowerShell, Active Directory
+
 
 ---
 
@@ -118,8 +141,6 @@ _Endpoint Management & Tooling_
 - 🧩 **rt-extension-ai** — OSS add‑on for Request Tracker (Perl + OpenAI)  
 - 🖼️ **Pixelens** — ViT + Transformer captioning & semantic search (PyTorch)  
 - 💸 **splitwise-clone** — Group expense manager (React + .NET API)
-
-> Tip: Pin 3–6 repos on your profile. For private work, add **case studies** with redacted details and architecture diagrams.
 
 ---
 
