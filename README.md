@@ -80,7 +80,7 @@
 
 ---
 
-## 🧪 Selected Engineering Notes
+## 🧪 Technical Article
 - **Memcache vs Redis at Scale** — leases, regional pools, sliding windows, cold‑cluster warmups  
   👉 Read my reflections: <a href="https://medium.com/@abhinandanvijan98/scaling-memcache-at-facebook-dc4e1b00e586">Medium article</a>
 
@@ -136,7 +136,7 @@
 
 ---
 
-## 🗂️ Repo Index (to pin on profile)
+## 🗂️ Repo Index
 - 🔒 **SmartHub** — Enterprise backup/restore (.NET) — _private/work sample write‑up_  
 - 🧩 **rt-extension-ai** — OSS add‑on for Request Tracker (Perl + OpenAI)  
 - 🖼️ **Pixelens** — ViT + Transformer captioning & semantic search (PyTorch)  
