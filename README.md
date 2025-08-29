@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://img.shields.io/badge/Open%20to%20Work-Yes-success"> <img alt="open to work" src="https://img.shields.io/badge/Open%20to%20Work-Yes-success"/> </a>
   <a href="mailto:<abhinandanvijan98@gmail.com>"><img alt="email" src="https://img.shields.io/badge/Email-Contact-informational"></a>
-  <a href="<https://linkedin.com/in/abhinandan-vijan>"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-blue"></a>
+  <a href="https://linkedin.com/in/abhinandan-vijan"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-blue"></a>
   <a href="#"><img alt="Weston, Florida" src="https://img.shields.io/badge/Location-USA-%23ff69b4"></a>
 </p>
 
@@ -86,7 +86,7 @@
 
 ---
 
-## 💼 Experience (Short)
+## 💼 Experience
 **HSBC Software Development India — Senior Software Engineer**  
 _Endpoint Management & Tooling_  
 - Built **.NET** desktop/web tooling for a user base of **400k+**; improved reliability and runtime performance  
