@@ -144,29 +144,5 @@
 
 ---
 
-## 📌 Quick Architecture Sketches (drop into repo READMEs)
-```mermaid
-flowchart LR
-  Client[Web/React] --> API[.NET 8 Web API]
-  API --> DB[(PostgreSQL)]
-  API --> Cache[(Redis)]
-  API --> MQ[(Background Service)]
-  ML[PyTorch/Inference] --> API
-```
-
-```mermaid
-flowchart LR
-  Img[Image] --> ViT[ViT Encoder]
-  ViT --> TR[Transformer Decoder]
-  TR --> Cap[Caption]
-  ViT --> Emb[Embeddings]
-  Emb -->|index| FAISS[(FAISS)]
-  Query[Text/Image] --> Emb
-  Emb -->|nn search| FAISS --> Results[Similar Items]
-```
-
-
----
-
 <p align="center">Thanks for visiting — happy to connect! ✨</p>
 
