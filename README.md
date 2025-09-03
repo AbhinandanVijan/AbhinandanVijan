@@ -15,7 +15,7 @@
 
 ## 🚀 About Me
 - 🎓 **M.S. in Computer Science, University at Buffalo** — graduated **June 2025**
-- 🧰 **3+ years @ HSBC (India)** — Senior Software Engineer on Endpoint Management & Tooling for ~400k+ devices
+- 🧰 **3+ years @ HSBC** — Senior Software Engineer on Endpoint Management & Tooling for ~400k+ devices
 - 🧠 Blend of **backend engineering** (.NET 8, EF Core, SQL) and **ML systems** (Vision Transformers, NLP)
 - 💡 Interests: **FinTech, platform engineering, data platforms, AI‑augmented developer tools**
 
