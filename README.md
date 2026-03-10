@@ -92,9 +92,9 @@
 **Buffalo, NY · Aug 2024 – Dec 2024**  
 **Project:** Request Tracker (RT) AI Extension  
 - Built AI-powered plugins for RT using OpenAI APIs and prompt chaining to improve ticket triage and agent productivity.  
-- Shipped **summarization**, **sentiment analysis**, and **smart reply suggestions** integrated with **Perl** back end and **CKEditor** UI.  
+- Shipped **summarization**, **sentiment analysis**, and **smart reply suggestions** integrated with back end and **CKEditor** UI.  
 - Collaborated on production-quality integration, testing, and rollout across an open-source stack.  
-**Tech:** Perl, JavaScript, CKEditor, OpenAI API
+**Tech:** JavaScript, CKEditor, OpenAI API
 
 ---
 
@@ -138,7 +138,7 @@
 
 ## 🗂️ Repo Index
 - 🔒 **SmartHub** — Enterprise backup/restore (.NET) — _private/work sample write‑up_  
-- 🧩 **rt-extension-ai** — OSS add‑on for Request Tracker (Perl + OpenAI)  
+- 🧩 **rt-extension-ai** — OSS add‑on for Request Tracker (OpenAI LLMs)  
 - 🖼️ **Pixelens** — ViT + Transformer captioning & semantic search (PyTorch)  
 - 💸 **splitwise-clone** — Group expense manager (React + .NET API)
 
