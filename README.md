@@ -54,10 +54,10 @@
 ---
 
 ### 2) RT‑Extension‑AI (Open‑Source Contribution)  
-**Stack:** Perl • JavaScript/CKEditor • OpenAI API  
+**Stack:** Python • JavaScript/CKEditor • OpenAI API  
 **What it does:** AI add‑on for the open‑source **Request Tracker** issue system—adds ticket **summaries**, **sentiment analysis**, and **auto‑completion** for replies, improving agent productivity.
 
-> Why it’s cool: Real‑world OSS impact; blends classic Perl stack with modern LLMs.
+> Why it’s cool: Real‑world OSS impact; blends Python stack with modern LLMs.
 
 ---
 
