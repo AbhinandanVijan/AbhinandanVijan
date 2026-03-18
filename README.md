@@ -1,148 +1,120 @@
 <h1 align="center">Hey, I'm Abhinandan Vijan 👋</h1>
 <p align="center">
-  Software Engineer — <b>.NET/C# • Python • AI/ML • Distributed Systems</b><br/>
-  Building reliable backends and ML‑powered apps that scale.
+  Software Engineer — <b>.NET/C# • APIs • Full-Stack Apps • AI-Enabled Workflows</b><br/>
+  Building reliable backend systems, business applications, and practical AI-powered tools.
 </p>
 
 <p align="center">
-  <a href="https://img.shields.io/badge/Open%20to%20Work-Yes-success"> <img alt="open to work" src="https://img.shields.io/badge/Open%20to%20Work-Yes-success"/> </a>
-  <a href="mailto:<abhinandanvijan98@gmail.com>"><img alt="email" src="https://img.shields.io/badge/Email-Contact-informational"></a>
-  <a href="https://linkedin.com/in/abhinandan-vijan"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-blue"></a>
-  <a href="#"><img alt="Weston, Florida" src="https://img.shields.io/badge/Location-USA-%23ff69b4"></a>
+  <a href="https://img.shields.io/badge/Open%20to%20Work-Yes-success">
+    <img alt="open to work" src="https://img.shields.io/badge/Open%20to%20Work-Yes-success"/>
+  </a>
+  <a href="mailto:abhinandanvijan98@gmail.com">
+    <img alt="email" src="https://img.shields.io/badge/Email-Contact-informational">
+  </a>
+  <a href="https://linkedin.com/in/abhinandan-vijan">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-blue">
+  </a>
+  <a href="#">
+    <img alt="Location USA" src="https://img.shields.io/badge/Location-USA-%23ff69b4">
+  </a>
 </p>
 
 ---
 
 ## 🚀 About Me
-- 🎓 **M.S. in Computer Science, University at Buffalo** — graduated **June 2025**
-- 🧰 **3+ years @ HSBC** — Senior Software Engineer on Endpoint Management & Tooling for ~400k+ devices
-- 🧠 Blend of **backend engineering** (.NET 8, EF Core, SQL) and **ML systems** (Vision Transformers, NLP)
-- 💡 Interests: **FinTech, platform engineering, data platforms, AI‑augmented developer tools**
+- Backend-focused software engineer building scalable APIs, full-stack apps, and AI-assisted workflows
+- Strong public project work across **.NET 8, ASP.NET Core, React, Angular, PostgreSQL, Redis, Docker, and AWS**
+- Interested in **enterprise software, platform engineering, cloud-native applications, and developer productivity tools**
+- I like projects that combine **clean architecture, practical UX, and measurable business value**
 
 ## 🔧 Tech Stack
-**Languages:** C#, Python, SQL, TypeScript/JavaScript
+**Languages:** C#, Python, SQL, TypeScript, JavaScript
 
-**Backend:** .NET 8, ASP.NET Core Web API, EF Core, REST, gRPC, Background Services
+**Backend:** .NET 8, ASP.NET Core Web API, Minimal APIs, EF Core, JWT Auth, REST APIs
 
-**Data & Infra:** SQL Server, PostgreSQL, Redis, Docker, Linux, CI/CD (GitHub Actions/Azure DevOps)
+**Frontend:** Angular, React, Vite, TailwindCSS, Gradio
 
-**ML/AI:** PyTorch, scikit‑learn, ViT, Transformers, FAISS, OpenAI API
+**Data & Infra:** PostgreSQL, SQLite, Redis, Docker, AWS (S3, SQS, RDS, EC2), Nginx
 
-**Frontend:** React, Vite, MUI (learning Next.js)
+**AI / ML:** OpenAI API, OCR pipelines, Vision Transformers, semantic search
 
-**Testing & Quality:** xUnit/NUnit, Integration Tests, Serilog, Postman
+**Tools:** Swagger / OpenAPI, GitHub Actions, Git, Postman, Serilog
 
-## 🧭 What I’m Focused On (now)
-- Building a **Splitwise‑style expense manager** (React + .NET API) with equal/unequal/% splits & group ledgers
-- Improving **PixeLens**: ViT encoder + Transformer decoder with beam search; semantic search via FAISS
-- **RT‑Extension‑AI** for Request Tracker: ticket summarization, sentiment, and smart reply drafting (OpenAI)
-- Writing succinct systems articles (Memcache vs Redis, caches at scale)
+## 🧭 What I’m Focused On
+- Building **AI Health Platform**: async document ingestion, OCR processing, role-based review workflows, and AWS deployment
+- Growing **ExpanseManager**: a personal expense tracker with bank transaction integration
+- Exploring **API Gateway patterns**: routing, auth, logging, and distributed rate limiting
+- Shipping **AI productivity features**: summarization, sentiment, translation, and smart writing assistance inside support workflows
 
 ---
 
 ## 🌟 Featured Projects
 
-### 1) SmartHub — Enterprise Backup/Restore Platform  
-**Stack:** .NET / C# • Windows services • SQL Server • Task Scheduler • Serilog  
-**Highlights:**
-- Loads backup schedules from DB as JSON; runs per‑user restores across multiple machines  
-- Supports multilingual UI text, dynamic config updates, and login/startup triggers  
-- Designed for **scale & resilience** across a large enterprise footprint
+### 1) [AI Health Platform](https://github.com/AbhinandanVijan/AI_Health_Platform) · [Live Demo](http://aihealth-frontend-abhinandan.s3-website.us-east-2.amazonaws.com/login)
+**Stack:** .NET 8 API • Angular • Python OCR Worker • PostgreSQL • AWS • Docker • Nginx
 
-> Impact: Reduced restore time & support friction for thousands of employees.
-
----
-
-### 2) RT‑Extension‑AI (Open‑Source Contribution)  
-**Stack:** Python • JavaScript/CKEditor • OpenAI API  
-**What it does:** AI add‑on for the open‑source **Request Tracker** issue system—adds ticket **summaries**, **sentiment analysis**, and **auto‑completion** for replies, improving agent productivity.
-
-> Why it’s cool: Real‑world OSS impact; blends Python stack with modern LLMs.
+- Built an async **document-to-insight pipeline** using uploads, queue-backed OCR processing, and normalized data persistence
+- Exposed secure REST APIs for **authentication, uploads, processing status, and insight generation**
+- Added **role-based navigation** and clinician review workflows for recommendation approval
+- Deployed the platform on AWS with **S3, EC2, RDS, and SQS**
 
 ---
 
-### 3) PixeLens — Vision Captioning & Semantic Search  
-**Stack:** PyTorch • ViT‑B/16 encoder • Transformer decoder • FAISS • Flask/FastAPI • SQLite  
-**Features:**  
-- Trainable on Flickr‑8k; **beam search** decoding; BLEU/METEOR evaluation  
-- **Image↔Text** and **Image↔Image** semantic retrieval via embedding search (FAISS)  
-- Responsive web UI; export captions & results
+### 2) [Splitwise Clone](https://github.com/AbhinandanVijan/Splitwise_Net_Core)
+**Stack:** .NET 8 Web API • React • Vite • PostgreSQL • EF Core • TailwindCSS
 
-> Why it shines: Showcases end‑to‑end ML product engineering.
-
----
-
-### 4) Splitwise‑Clone — Group Expense Manager  
-**Stack:** React • Vite • MUI • Axios • .NET 8 Web API • EF Core • PostgreSQL  
-**Capabilities:** Equal/unequal/percent splits, member balances, month‑wise grouping, and clean Group Detail UX.
-
-> Goal: Demonstrate pragmatic **full‑stack** engineering in FinTech‑style workflows.
+- Built a full-stack expense-sharing app with **equal, unequal, and percentage-based splits**
+- Implemented **JWT authentication**, **BCrypt password hashing**, and structured logging with **Serilog**
+- Used PostgreSQL **`xmin` optimistic concurrency** to prevent conflicting updates
+- Added clean group, expense, and balance workflows with React + Axios
 
 ---
 
-## 🧪 Technical Article
-- **Memcache vs Redis at Scale** — leases, regional pools, sliding windows, cold‑cluster warmups  
-  👉 Read my reflections: <a href="https://medium.com/@abhinandanvijan98/scaling-memcache-at-facebook-dc4e1b00e586">Medium article</a>
+### 3) [API Gateway + Sliding Window Counter](https://github.com/AbhinandanVijan/ApiGateway_RateLimiter)
+**Stack:** .NET 8 Minimal API • Redis • Docker • FastAPI • Node
+
+- Implemented a gateway with centralized routing and request handling
+- Added a distributed **sliding-window rate limiter** enforcing **10 requests / 10 seconds per apiKey + route**
+- Routed traffic across multiple downstream services in **.NET, FastAPI, and Node**
+- Packaged the system with **Docker Compose** for local orchestration
 
 ---
 
-## Experience
+### 4) [RT-Extension-AI](https://github.com/AbhinandanVijan/rt-extension-ai)
+**Stack:** Perl • TypeScript • CKEditor • OpenAI API
 
-### University at Buffalo — Software Developer (Client: Best Practical Solutions LLC)
-**Buffalo, NY · Aug 2024 – Dec 2024**  
-**Project:** Request Tracker (RT) AI Extension  
-- Built AI-powered plugins for RT using OpenAI APIs and prompt chaining to improve ticket triage and agent productivity.  
-- Shipped **summarization**, **sentiment analysis**, and **smart reply suggestions** integrated with back end and **CKEditor** UI.  
-- Collaborated on production-quality integration, testing, and rollout across an open-source stack.  
-**Tech:** JavaScript, CKEditor, OpenAI API
+- Built AI-powered support workflow features for **Request Tracker 6**
+- Added **autocomplete** to help users draft responses faster
+- Implemented AI filters for **tone adjustment, suggestions, and translation**
+- Added **ticket sentiment classification** and **automatic summarization**
 
 ---
 
-### HSBC Software Development India — Senior Software Engineer
-**Pune, India · Apr 2023 – Dec 2023**  
-- Led development of a **.NET Windows** application automating **backup/restore** for **400k+** users, reducing manual work by **90%**.  
-- Designed a **modular plug-and-play DLL** architecture to speed releases and maximize reuse across product lines.  
-- Hardened and tuned services & **REST APIs**, cutting average response time by **40%** and improving resiliency.  
-- Performed **SQL Server** tuning (indexes, stored procedures), reducing key query times by **70%**.  
-- Implemented **Splunk**-based observability and alerting, improving incident **TTR by 50%**.  
-- Agile delivery (standups, reviews) and CI/CD contributions; earned a **“Pat on the Back”** award (Oct 2023).  
-**Tech:** C#, .NET, Windows Services, REST, SQL Server, Splunk, CI/CD
+### 5) [PixeLens](https://github.com/AbhinandanVijan/PixeLens)
+**Stack:** Python • Gradio • Vision Transformers • SQLite
+
+- Built an AI-powered image captioning and semantic search platform
+- Supports **text-to-image** and **image-to-image** retrieval
+- Stores images, captions, and embeddings in **SQLite** for lightweight search
+- Ships as an end-to-end ML application with a simple interactive UI
 
 ---
 
-### HSBC Software Development India — Software Engineer
-**Pune, India · Sept 2020 – Mar 2023**  
-- Maintained and enhanced multiple **.NET web/desktop** apps (OOP, MVC) used by **20+** internal business units.  
-- Built and owned **50+ SSIS** pipelines; delivered **500+ SSRS** KPI dashboards and reports.  
-- Automated recurring ETL tasks, saving **120+ hours/month** across teams.  
-- Integrated apps with **LDAP/Active Directory** and scripted automation with **PowerShell**.  
-**Tech:** ASP.NET, WPF, SSIS, SSRS, PowerShell, Active Directory
-
-
----
-
-## 🎓 Education
-- **M.S., Computer Science** — University at Buffalo, SUNY (Class of **2025**)  
-- **B.E., Electrical Engineering** — Thapar University (Class of **2020**)
-
----
-
-## 🤝 Let’s Collaborate
-- Backend/API performance work in **.NET 8**  
-- **ML features** inside enterprise products (summaries, embeddings, search)  
-- **FinTech** prototypes: risk, pricing, and analytics dashboards
-
-📫 **Contact:** <abhinandanvijan98@gmail.com> · **LinkedIn:** <https://linkedin.com/in/abhinandan-vijan>
+## 🛠️ Currently Building
+### [ExpanseManager](https://github.com/AbhinandanVijan/ExpanseManager)
+A personal expense tracker and manager with **bank transaction integration**.  
+This is my active work-in-progress project focused on practical financial workflows and clean backend design.
 
 ---
 
 ## 🗂️ Repo Index
-- 🔒 **SmartHub** — Enterprise backup/restore (.NET) — _private/work sample write‑up_  
-- 🧩 **rt-extension-ai** — OSS add‑on for Request Tracker (OpenAI LLMs)  
-- 🖼️ **Pixelens** — ViT + Transformer captioning & semantic search (PyTorch)  
-- 💸 **splitwise-clone** — Group expense manager (React + .NET API)
+- [AI_Health_Platform](https://github.com/AbhinandanVijan/AI_Health_Platform)
+- [Splitwise_Net_Core](https://github.com/AbhinandanVijan/Splitwise_Net_Core)
+- [ApiGateway_RateLimiter](https://github.com/AbhinandanVijan/ApiGateway_RateLimiter)
+- [rt-extension-ai](https://github.com/AbhinandanVijan/rt-extension-ai)
+- [PixeLens](https://github.com/AbhinandanVijan/PixeLens)
+- [ExpanseManager](https://github.com/AbhinandanVijan/ExpanseManager)
 
 ---
 
 <p align="center">Thanks for visiting — happy to connect! ✨</p>
-
