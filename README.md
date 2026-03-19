@@ -80,8 +80,8 @@
 
 ---
 
-### 4) [RT-Extension-AI](https://github.com/AbhinandanVijan/rt-extension-ai)
-**Stack:** Perl • TypeScript • CKEditor • OpenAI API
+### 4) [RT-Extension-AI]([https://github.com/AbhinandanVijan/rt-extension-ai]· [Live Demo](https://drive.google.com/file/d/1OMAhzTdOxZIcZ43-e3ILQIHCBCDMequf/view?usp=sharing))
+**Stack:** TypeScript • CKEditor • OpenAI API
 
 - Built AI-powered support workflow features for **Request Tracker 6**
 - Added **autocomplete** to help users draft responses faster
